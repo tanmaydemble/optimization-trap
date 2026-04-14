@@ -416,6 +416,38 @@
     letter-spacing: 1px;
   }
 
+  /* ===== SOURCES ===== */
+  .sources {
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+
+  .sources-list {
+    margin-top: 32px;
+    display: grid;
+    gap: 16px;
+  }
+
+  .source-item {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+
+  .source-item h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: var(--cyan);
+  }
+
+  .source-item p {
+    font-size: 13px;
+    color: var(--text-dim);
+    font-weight: 300;
+  }
+
   /* ===== DIVIDER ===== */
   .divider {
     height: 1px;
@@ -646,6 +678,31 @@
   <section class="closing">
     <p class="closing-quote">The research has been published. The testimony has been given. The platforms haven't changed. <em>Now it's on us.</em></p>
     <div class="closing-attr">Made by Tanmay Demble</div>
+  </section>
+
+  <section class="sources">
+    <div class="section-label">06 / Selected Sources</div>
+    <h2 class="section-title">Relevant sources from the literature review</h2>
+    <p class="section-body">These sources support the essay's main claims about algorithmic ranking, mental health effects, and practical alternatives to engagement-based feeds.</p>
+
+    <div class="sources-list">
+      <div class="source-item">
+        <h3>Braghieri, Levy, and Makarin (2022)</h3>
+        <p>Provides causal evidence that social media use can worsen mental health through unfavorable social comparison, which supports the essay's argument about self-replacement and comparison-driven harm.</p>
+      </div>
+      <div class="source-item">
+        <h3>Mandile (2025)</h3>
+        <p>Separates the effect of Instagram's recommendation algorithm from the platform itself and finds that algorithmic ranking worsened mental health outcomes, especially for young users.</p>
+      </div>
+      <div class="source-item">
+        <h3>Ovadya and Thorburn (2022)</h3>
+        <p>Introduces bridging-based ranking as an alternative optimization target that favors content helping different groups understand one another instead of maximizing engagement.</p>
+      </div>
+      <div class="source-item">
+        <h3>European Commission, Digital Services Act (2022)</h3>
+        <p>Shows the strongest current regulatory framework for algorithmic transparency, risk assessment, and non-profiling feed options, making it directly relevant to policy reform.</p>
+      </div>
+    </div>
   </section>
 
 </div>
